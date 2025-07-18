@@ -12,8 +12,8 @@ const PORT = parseInt(process.env.PORT || '4000', 10);
 //  - credentials: true si vas a enviar cookies / cabeceras de autenticación
 const corsOptions: cors.CorsOptions = {
   origin: [
-    'https://front-production-09a4.up.railway.app',
-    'http://front-production-09a4.up.railway.app',
+    'https://fack-production.up.railway.app',
+    'http://fack-production.up.railway.app',
   ],
   methods: ['GET','POST','PUT','DELETE','OPTIONS'],
   allowedHeaders: ['Content-Type','Authorization'],
