@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const connectDB = async (): Promise<void> => {
-    const mongoUrl = process.env.MONGO_URI || 'mongodb://mongo:NXUPizclafGNyPxxldKqkYoYMFqiMtcS@centerbeam.proxy.rlwy.net:43919';
+    const mongoUrl = process.env.MONGO_URI || "mongodb://mongo:AeZZCvNEMrPtjhVqUKbvAZgtXbdWPDeP@nozomi.proxy.rlwy.net:16114";
   try {
     await mongoose.connect(mongoUrl);
     console.log('MongoDB connectado correctamente');
